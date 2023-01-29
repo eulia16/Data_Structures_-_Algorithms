@@ -1,0 +1,21 @@
+Questions: 
+//should I take in the strings from the JSON into a premade hashmap(java util hashmap), and then use the add and
+//frequency methods in the frequency table we made to then count the frequencies? or should I load the strings into
+//the frequency table we made? i think resolved
+
+-how can i calculate term frequency in a string of words, do i need 10,000 different instances of the frequency table?
+or can i use one massive one, mayne I can use one large one for term frequency for corpus, and then calculate 
+individual tf, because every business needs its own tf and then idf is for the entire corpus
+**befire starting next time, check out some websites exolaining tf-idf, i think it may help**
+***********************
+Feb 26 closing notes
+we have now set up the tf and the idf using our self made frequency table, we have decently limited collisions,
+using this, we will be able to calculate the tf idf of the given business(their categories)(which also will be =1),
+and then compare all of the other businesses tf-idf values(which we can store their names and their ratings in a
+hashmap and then take out which ones are the most similiar to the given business(like top 5 or something)
+
+Feb 27th closing notes
+The recommendations are pretty much correct, just try and normalize the percentages so theyre <= 1, and also make 
+a GUI that can take in the business(just like the system.in but with a text prompt box, anf then limit the number
+of recommendations for like max 10 or something, whatever fits in the box, great fucking job ethan you did well,
+but remember you can always do better, finish this shit up tomorrow and feel good about the work youve done
